@@ -13,6 +13,10 @@ const favoriteRoutes = require('./routes/favoriteRoutes');
 const reviewRoutes = require('./routes/reviewRoutes');
 const inquiryRoutes = require('./routes/inquiryRoutes');
 const adminRoutes = require('./routes/adminRoutes');
+const connectDB = require('./config/db');
+
+// Connect to database (for serverless environments)
+connectDB();
 
 const app = express();
 
