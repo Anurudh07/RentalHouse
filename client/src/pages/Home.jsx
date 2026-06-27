@@ -70,7 +70,7 @@ const Home = () => {
   };
 
   const popularLocations = [
-    { name: 'Noida', count: 12, img: 'https://images.unsplash.com/photo-1590059002624-f1911850a761?auto=format&fit=crop&w=400&q=80' },
+    { name: 'Noida', count: 12, img: 'https://images.unsplash.com/photo-1597047084897-51e81819a499?auto=format&fit=crop&w=400&q=80' },
     { name: 'Delhi', count: 15, img: 'https://images.unsplash.com/photo-1587474260584-136574528ed5?auto=format&fit=crop&w=400&q=80' },
     { name: 'Gurgaon', count: 8, img: 'https://images.unsplash.com/photo-1605649487212-47bdab064df7?auto=format&fit=crop&w=400&q=80' },
     { name: 'Mumbai', count: 18, img: 'https://images.unsplash.com/photo-1566552881560-0be862a7c445?auto=format&fit=crop&w=400&q=80' }

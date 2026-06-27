@@ -50,7 +50,10 @@ const cities = [
   { name: 'Bangalore', state: 'Karnataka', coords: { lat: 12.9716, lng: 77.5946 } },
   { name: 'Delhi', state: 'NCR', coords: { lat: 28.7041, lng: 77.1025 } },
   { name: 'Pune', state: 'Maharashtra', coords: { lat: 18.5204, lng: 73.8567 } },
-  { name: 'Hyderabad', state: 'Telangana', coords: { lat: 17.3850, lng: 78.4867 } }
+  { name: 'Hyderabad', state: 'Telangana', coords: { lat: 17.3850, lng: 78.4867 } },
+  { name: 'Noida', state: 'Uttar Pradesh', coords: { lat: 28.5355, lng: 77.3910 } },
+  { name: 'Gurgaon', state: 'Haryana', coords: { lat: 28.4595, lng: 77.0266 } },
+  { name: 'Chennai', state: 'Tamil Nadu', coords: { lat: 13.0827, lng: 80.2707 } }
 ];
 
 const propertyTypes = ['Apartment', 'Villa', 'Independent House', 'PG'];

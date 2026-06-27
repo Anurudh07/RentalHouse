@@ -60,6 +60,11 @@ app.get('/api/health', (req, res) => {
   res.status(200).json({ success: true, message: 'Server is healthy' });
 });
 
+// Root endpoint
+app.get('/', (req, res) => {
+  res.status(200).send('RentalHouse Backend API is running successfully. Please access the frontend client at http://localhost:3000.');
+});
+
 // Centralized Error Handler
 app.use(errorHandler);
 
